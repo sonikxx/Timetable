@@ -1,0 +1,7 @@
+.block {
+    width: 214px;
+    height: 370px;
+    border-bottom: 3px solid #007ADD;
+    border-top: 3px solid #007ADD;
+    border-right: 3px solid #007ADD;
+}

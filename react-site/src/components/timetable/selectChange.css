@@ -1,0 +1,62 @@
+.select__change {
+    border: 3px solid #007ADD;
+    border-radius: 15px;
+    height: 43px;
+    width: 400px;
+    color: #424242;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.static__select {
+    border: 3px solid #007ADD;
+    border-radius: 15px;
+    height: 43px;
+    width: 400px;
+    color: #424242;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+
+.select__change:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.25em) 0.35em;
+    background-size: 0.85em auto;
+    background-image: url("../../img/arrow.svg");
+    background-position-x: calc(100% - 10px);
+    background-position-y: calc(100% - 10px);
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.print__rank {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 40px;
+    width: 100px;
+}
+
+.container__module__change {
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

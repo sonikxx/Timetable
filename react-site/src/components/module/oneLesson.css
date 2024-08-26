@@ -1,0 +1,52 @@
+.one__lesson {
+    color: #424242;
+    padding-left: 55px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 27px;
+}
+
+.hight__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.two__button {
+    margin-top: 10px;
+    position: absolute;
+    right: 0px;
+    padding-right: 40px;
+    display: none;
+}
+
+.table {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    margin-right: 20px;
+    max-width: 384px;
+}
+
+.type__lesson {
+    display: none;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    height: 30px;
+    width: 55px;
+    font-size: 17px;
+    padding-top: 4px;
+    margin-top: -3px;
+    margin-right: 70px;
+    background-color: #007ADD;
+}
+
+.lower__line {
+    color: #787878;
+    font-size: 15px;
+}

@@ -1,0 +1,12 @@
+.header {
+    padding: 20px 0;
+}
+
+.header__logo {
+    padding-bottom: 5px;
+}
+
+.header__name {
+    font-size: 12px;
+    font-weight: 700;
+}

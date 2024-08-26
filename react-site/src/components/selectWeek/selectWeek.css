@@ -1,0 +1,48 @@
+.select__week {
+    position: absolute;
+    height: 30px;
+    width: 190px;
+    font-weight: 600;
+    margin-left: 1210px;
+    margin-top: -45px;
+    color: #424242;
+    font-size: 18px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    transition-duration: 0.2s;
+}
+
+/* .select__week option {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+} */
+
+.select__week:hover {
+    color: #007ADD;
+    border-bottom: 3px solid #007ADD;
+    font-weight: 600;
+}
+
+.select__week:not([multiple]):hover {
+    background-image: url("../../img/arrow.svg");
+    background-position-x: calc(100% - 5px);
+    background-position-y: calc(100% - 5px);
+}
+
+.select__week:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.25em) 0.35em;
+    background-size: 0.85em auto;
+    background-image: url("../../img/arrow_black.svg");
+    background-position-x: calc(100% - 5px);
+    background-position-y: calc(100% - 5px);
+}
+
+.select__week::-ms-expand {
+    display: none;
+}

@@ -1,0 +1,50 @@
+.print {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 140px;
+    margin-left: 130px;
+    width: 400px;
+}
+
+.modal__delete {
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__content__delete {
+    border-radius: 15px;
+    background-color: white;
+    margin: 4% auto;
+    border: 1px solid #888;
+    width: 680px;
+    padding-bottom: 20px;
+    min-height: 505px;
+    height: fit-content;
+}
+
+.delete__yes {
+    margin-top: 50px;
+    height: 45px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #2CDA00;
+    color: white;
+    margin-left: 225px;
+    margin-right: 50px;
+}
+
+.delete__no {
+    height: 45px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #FF715E;
+    color: white;
+}

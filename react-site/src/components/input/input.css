@@ -1,0 +1,47 @@
+.name__input {
+    font-size: 20px;
+    font-weight: 500;
+    color: #424242;
+    text-align: left;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+
+.input__form {
+    border: 3px solid #007ADD;
+    border-radius: 15px;
+    height: 56px;
+    width: 500px;
+    margin-left: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #424242;
+    margin-bottom: 45px;
+}
+
+::placeholder {
+    color: #BCBCBC;
+}
+
+.button__input {
+    margin-left: 35px;
+    color: white;
+    border: 3px solid #007ADD;
+    background-color: #007ADD;
+    width: 200px;
+    height: 56px;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    user-select: none;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+.button__input:hover {
+    background-color: white;
+    color: #007ADD;
+    border: 3px solid #007ADD;
+}

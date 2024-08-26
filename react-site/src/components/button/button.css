@@ -1,0 +1,36 @@
+a.button,
+a.button__back .button,
+.button__back {
+    color: white;
+    border: 3px solid #007ADD;
+    background-color: #007ADD;
+    width: 280px;
+    height: 56px;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    user-select: none;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+a.button__back,
+.button__back {
+    position: absolute;
+    left: 0;
+    margin-left: 120px;
+}
+
+.button:hover,
+.button__back:hover {
+    background-color: white;
+    color: #007ADD;
+    border: 3px solid #007ADD;
+}
+
+.wrapper__button {
+    text-align: center;
+    margin-top: 27px;
+}

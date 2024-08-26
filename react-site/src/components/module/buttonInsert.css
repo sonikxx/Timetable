@@ -1,0 +1,25 @@
+.button__insert {
+    color: white;
+    border: 3px solid #007ADD;
+    background-color: #007ADD;
+    width: 150px;
+    height: 56px;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    user-select: none;
+    outline: none;
+    transition-duration: 0.3s;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.button__insert:hover {
+    background-color: white;
+    color: #007ADD;
+    border: 3px solid #007ADD;
+}
