@@ -11,3 +11,9 @@ Technologies Used:
 - PostgreSQL: For robust and reliable database management.
 
 This project was created as part of an introduction to modern web development technologies and user-friendly web applications.
+
+## Results
+
+![Main window](https://github.com/sonikxx/Timetable/blob/main/img/s1.jpg)
+![Popup1](https://github.com/sonikxx/Timetable/blob/main/img/s2.jpg)
+![Popup2](https://github.com/sonikxx/Timetable/blob/main/img/s3.jpg)
